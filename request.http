@@ -1,0 +1,28 @@
+###
+GET http://localhost:3000/api HTTP/1.1
+###
+GET http://localhost:3000/api/6 HTTP/1.1
+
+###
+POST http://localhost:3000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Pan",
+    "descripcion": "lComida",
+    "precio": "15000",
+    "cantidad": "6"
+}
+###
+DELETE http://localhost:3000/api/6 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/5 HTTP/1.1
+Content-Type: application/json
+
+{
+     "nombre": "Tvkk",
+    "descripcion": "lo que sea xd",
+    "precio": "1500000",
+    "cantidad": "10"
+}
